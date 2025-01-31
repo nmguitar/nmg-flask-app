@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return 'Hello Flask of whisk'
+    return 'Hello Flask'
 
 
 @app.route('/arithFormat/')
